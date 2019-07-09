@@ -1,24 +1,30 @@
 /* ------ Global Start ------ */
 
+
 *{
   padding: 0;
   margin: 0;
   font-family: azo-sans-web, sans-serif;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 h1{
   font-weight: 700;
-  font-size: calc(16px + 9vw);
+  font-size: calc(16px + 6vw);
   width: 100%;
   text-align: center;
-  opacity: 0.85;
   white-space: pre;
 }
+p{
+  margin: 0;
+}
+
 
 /* ------ Global End ------ */
 
-
-
 /* ------ Utilities Start ------ */
+
 
 .pin-area{
   position: relative;
@@ -33,21 +39,156 @@ h1{
 
 /* ------ Utilities End ------ */
 
-
-
 /* ------ Home Intro Start ------ */
+
 
 #home-intro{
   width: 100vw;
   height: 100vh;
-  background: #0f0f0f;
-  color: #fff;
+  background: #131313;
+  color: #ebebeb;
 }
 #my-name{
-  transition: all 0.5s ease-out;
+  margin: 0;
+  padding: 0;
+  line-height: 0.8em;
 }
-.hide{
+
+
+
+.home-intro-appear{
+  opacity: 1;
+}
+.home-intro-exit-done{
   opacity: 0;
+  transition: opacity 800ms ease-out;
+}
+.home-intro-text{
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 400ms ease-out;
+  z-index: 1;
+}
+
+
+
+.home-intro-title-uper-left{
+  position: absolute;
+  top: -2rem;
+  left: 0;
+  line-height: 1rem;
+  padding: 2px;
+}
+.home-intro-title-lower-right{
+  position: absolute;
+  bottom: -2rem;
+  right: 0;
+  line-height: 1rem;
+  padding: 2px;
+}
+.home-intro-title-appear{
+  opacity: 0;
+}
+.home-intro-title-enter{
+  opacity: 0;
+}
+.home-intro-title-enter-active{
+  opacity: 0.8;
+}
+.home-intro-title-enter-done{
+  opacity: 0.8;
+}
+.home-intro-title-exit{
+  opacity: 0;
+}
+.home-intro-title-exit-done{
+  opacity: 0;
+}
+
+
+
+.home-intro-topper{
+  position: absolute;
+  top: 0;
+  background: #ebebeb;
+  opacity: 1;
+  height: 100%;
+  transition: width 800ms ease-out;
+  z-index: 2;
+}
+.home-intro-topper-appear{
+  left: 0;
+  width: 0%;
+}
+.home-intro-topper-enter{
+  left: 0;
+  width: 0%;
+}
+.home-intro-topper-enter-active{
+  left: 0;
+  width: 100%;
+}
+.home-intro-topper-enter-done{
+  left: 0;
+  width: 100%;
+}
+.home-intro-topper-exit{
+  right: 0;
+  width: 0%;
+}
+.home-intro-topper-exit-active{
+  right: 0;
+  width: 0%;
+}
+.home-intro-topper-exit-done{
+  right: 0;
+  width: 0%;
+}
+
+
+
+.x-svg-in{
+  z-index: 0;
+  fill: #202020;
+  height: calc(180px + 7vw);
+  width: calc(180px + 7vw);
+  transform: rotate(0deg);
+  transition: all 800ms ease-out;
+}
+.x-svg-in-appear{
+  transform: rotate(0deg);
+}
+.x-svg-in-enter{
+  transform: rotate(-45deg);
+}
+.x-svg-in-enter-active{
+  transform: rotate(-45deg);
+  fill: #000;
+}
+.x-svg-in-enter-done{
+  transform: rotate(-45deg);
+  fill: #000;
+}
+.x-svg-in-exit{
+  transform: rotate(-45deg);
+  fill: #000;
+  width: 550vw;
+  height: 550vh;
+  transition: all 600ms ease-in;
+}
+.x-svg-in-exit-active{
+  transform: rotate(-45deg);
+  fill: #000;
+  width: 550vw;
+  height: 550vh;
+  transition: all 600ms ease-in;
+}
+.x-svg-in-exit-done{
+  transform: rotate(-45deg);
+  fill: #131313;
+  width: 550vw;
+  height: 550vh;
+  transition: all 600ms ease-in;
 }
 
 /* ------ Home Intro End ------ */

@@ -5,16 +5,22 @@ import { CSSTransition } from 'react-transition-group';
 
 class Projects extends Component {
 
-
+  componentDidMount(){
+    this.props.loadProjectsPage()
+  }
+  route = () => {
+    this.props.history.push(this.props.link);
+  }
 
   render () {
-
-    const homeIntroAnimationMain = this.props.homeIntroAnimationMain;
-
     return(
       <div id="projects">
-        Heyo!
-        <CSSTransition in={homeIntroAnimationMain} appear={true} classNames="home-intro"><HomeIntro homeIntroAnimationMainOut={this.props.homeIntroAnimationMainOut} /></CSSTransition>;
+        <CSSTransition timeout={500} in={this.props.projectsPageAnimation} appear={true} classNames="projects-animation" onExited={this.route}>
+          <ProjectList closeProjectLink={this.props.closeProjectLink} history={this.props.history} projectData={this.props.projectData} />
+        </CSSTransition>
+        <CSSTransition timeout={400} in={this.props.homeIntroAnimationMain} appear={true} classNames="home-intro">
+          <HomeIntro homeIntroAnimationMainOut={this.props.homeIntroAnimationMainOut} />
+        </CSSTransition>
       </div>
     )
   }

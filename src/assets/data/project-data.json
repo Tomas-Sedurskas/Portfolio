@@ -1,0 +1,184 @@
+
+  [
+    {
+      "id": "Dashboard",
+      "link": "/Autolite",
+      "number": "1",
+      "projectName": "Dashboard",
+      "clientName": "Seluxit A/S",
+      "tag": "Graduation Exam",
+      "coverImg": "Dashy-Logo.jpg",
+      "task": "For my graduation exam I continued working with IoT related web applications. The Dashboard allowed users to get data about their indoor and outdoor environments by connecting IoT devices to the App. The aim of the project was to create something that is aesthetically pleasing while being functional and easy to use by visualizing the data in charts and showing live data to the user.",
+      "aboutProject": [
+        {
+          "title": "Development of the Web App",
+          "image": "Dashy-Main.jpg",
+          "text": "Throughout the development of this project I had a lot of freedom because the task given to me was pretty broad. The task was to make a data visualization web app with the use of an IoT API that the company had developed. The web app was done with the use of React, Bootstrap, Victory Charts, Wapp-Api and custom made stylings and layouts."
+        }
+      ],
+      "teamSize": "1 Developer",
+      "devMethod": "Scrum",
+      "startTime": "April 2019",
+      "endTime": "June 2019",
+      "credits": [],
+      "teamEfforts": [
+        {
+          "item": "Data Visualization"
+        },
+        {
+          "item": "IoT Interaction"
+        },
+        {
+          "item": "React Development"
+        },
+        {
+          "item": "UX/UI Design"
+        }
+      ]
+    },
+    {
+      "id": "Autolite",
+      "link": "/Travel",
+      "number": "2",
+      "projectName": "Autolite",
+      "clientName": "Seluxit A/S",
+      "tag": "Internship",
+      "coverImg": "Autolite-Logo.jpg",
+      "task": "Autolite was a Solo project that was done throughout my internship at Seluxit A/S. This was my first attempt at making a web application for IoT devices. The app allowed users to control Philips Hue lights. The main focus was on allowing users to attach their custom made lighting presets to their Google calendar events.",
+      "aboutProject": [
+        {
+          "title": "Initial Development",
+          "image": "Autolite-Mobile.jpg",
+          "text": "The idea for the Autolite began as a mobile application. At first, it was meant to be a simple smart light controller with some customization options but then it evolved into a more complex project that allowed to create presets and had Google Calendar event support. The application made use of React, Bootstrap, React Color, Wapp-Api and custom made stylings and layouts."
+        },
+        {
+          "title": "Desktop / Tablet Development",
+          "image": "Autolite-Desktop.jpg",
+          "text": "As the project went on its design and layout transitioned and adapted for desktop and tablet usage as well. The touch screen friendly design was kept on both the mobile and desktop versions of the application partially as an artifact of mobile design and partially due to more and more laptops introducing touch screens into the market."
+        }
+      ],
+      "teamSize": "1 Developer",
+      "devMethod": "Scrum",
+      "startTime": "January 2019",
+      "endTime": "March 2019",
+      "credits": [],
+      "teamEfforts": [
+        {
+          "item": "IoT Interaction"
+        },
+        {
+          "item": "React Development"
+        },
+        {
+          "item": "UX/UI Design"
+        }
+      ]
+    },
+    {
+      "id": "Travel",
+      "link": "/Apel",
+      "number": "3",
+      "projectName": "Travel",
+      "clientName": "StudyLife",
+      "tag": "University Project",
+      "coverImg": "Travel-Logo.jpg",
+      "task": "As a team of 3, we developed a social media mobile web app for travelers. The goal of the application was to allow users to create and share their trip ideas and experiences. Locations, routes, photos, tips, to-do lists and more were accessible in the web app. The goal of this project was to provide all of the necessary tools for the users to share their experiences while other users could easily find for what they are looking by searching or filtering through the trips.",
+      "aboutProject": [
+        {
+          "title": "Onboarding Experience",
+          "image": "Travel-Intro.jpg",
+          "text": "Heavy focus was put on the onboarding experience for this project since it relied heavily on having at least a moderate amount of users. The onboarding included an introductory card tutorial and made use of empty state onboarding. Meaning that a new user should get all the pointers they could need to understand the purpose of the app and how to use it."
+        },
+        {
+          "title": "Development of the Mobile App",
+          "image": "Travel-Main.jpg",
+          "text": "The scope of this project required our team of 3 to manage our resources well to create this application. The whole team contributed to the design of the final product, but the coding part was split up. The back-end coding and some parts of the React code were written by me and my teammates took charge of the CSS and the rest of the React coding."
+        },
+        {
+          "title": "Trying Firebase",
+          "image": "Travel-Onboarding.jpg",
+          "text": "For this project I wanted to try out something new so I stumbled upon Firebase while figuring out how the back-end should be done. The database, account registration and authentication were done with the use of Firebase."
+        }
+      ],
+      "teamSize": "3 Developers",
+      "devMethod": "Scrum",
+      "startTime": "November 2018",
+      "endTime": "January 2019",
+      "credits": [
+        {
+        "item": "Maria Aldis Garðarsdóttir - UX/UI Design | Front-end Code."
+        },
+        {
+        "item": "Vytautas Minikevičius - UX/UI Design | Front-end Code."
+        },
+        {
+        "item": "Tomas Sedurskas - UX/UI Design | Back-end Code"
+        }
+      ],
+      "teamEfforts": [
+        {
+          "item": "Information Architecture"
+        },
+        {
+          "item": "Onboarding Experience"
+        },
+        {
+          "item": "React Development"
+        },
+        {
+          "item": "UX/UI Design"
+        }
+      ]
+    },
+    {
+      "id": "Apel",
+      "link": "/Dashboard",
+      "number": "4",
+      "projectName": "Apel",
+      "clientName": "Guldsmed Apel",
+      "tag": "University Project",
+      "coverImg": "Apel-Logo.jpg",
+      "task": "This project required us to form teams of 4 students. We collaborated to redesign, develop a brand Identity and code a new website for the client. The final product loaded content dynamically from WordPress as a Headless CMS as part of the University requirements for this project.",
+      "aboutProject": [
+        {
+          "title": "Early Website",
+          "image": "Apel-Desktop.jpg",
+          "text": "The Apel's website is not my first website but it was one of the earlier websites that I took part in creating. Most of the focus was put on the UX/UI and developing a new identity for the client."
+        },
+        {
+          "title": "Responsive Design and Typography",
+          "image": "Apel-Mobile.jpg",
+          "text": "The website was made fully responsive with some modifications to the layout. Typography played a big role in this project as well. We tried to strike a balance of something that could be easy to read, look aesthetically pleasing and look great both on a smartphone and on desktop."
+        }
+      ],
+      "teamSize": "4 Developers",
+      "devMethod": "Prototyping",
+      "startTime": "Feburary 2018",
+      "endTime": "March 2018",
+      "credits": [
+        {
+        "item": "Katerina Milzaraja - Brand Identity | UX/UI Design"
+        },
+        {
+        "item": "Vytautas Minikevičius -  UX/UI Design | Front-end Code"
+        },
+        {
+        "item": "Leonardo Miodrag -  Brand Identity | UX/UI Design | Front-end Code"
+        },
+        {
+        "item": "Tomas Sedurskas - UX/UI Design | Front-end Code | Back-end Code"
+        }
+      ],
+      "teamEfforts": [
+        {
+          "item": "UX/UI Design"
+        },
+        {
+          "item": "Brand Identity"
+        },
+        {
+          "item": "Coding"
+        }
+      ]
+    }
+  ]

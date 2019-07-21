@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
 import Navbar from './components/Navbar/Navbar';
@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    this.setState({ homeIntroAnimationMain: true });
+    //this.setState({ homeIntroAnimationMain: true });
   }
   homeIntroAnimationMainOut = () => {
     this.setState({ homeIntroAnimationMain: false });
@@ -81,7 +81,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <BrowserRouter>
+        <HashRouter>
           <Navbar menuTrigger={this.menuTrigger} navbarOpen={this.state.navbarOpen}/>
           <Switch>
             <Route path='/' render={({history}) => <Projects loadProjectsPage={this.loadProjectsPage} projectsPageAnimation={this.state.projectsPageAnimation} link={this.state.link} history={history} closeProjectLink={this.closeProjectLink} projectsPageAnimationMain={this.state.projectsPageAnimationMain} projectData={this.state.projectData} homeIntroAnimationMain={this.state.homeIntroAnimationMain} homeIntroAnimationMainOut={this.homeIntroAnimationMainOut} /> } exact="exact"/>
@@ -90,7 +90,7 @@ class App extends Component {
             <Route path="/:id" render={({match, history}) => <Showcase match={match} history={history} showcaseAnimationMain={this.state.showcaseAnimationMain} />} />
             <Route path='*' component={Error404}/>
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     )
   }

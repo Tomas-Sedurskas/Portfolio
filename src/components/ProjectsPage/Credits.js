@@ -6,7 +6,7 @@ class Credits extends Component {
   render () {
     if(this.props.credits.length > 0){
       return(
-        <div className="row showcase-padding showcase-padding-bot-l">
+        <div className="row showcase-padding showcase-margin-bot">
           <div className="col">
             <div className="bold-text">Credits</div><br></br>
             <div>

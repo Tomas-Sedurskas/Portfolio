@@ -11,7 +11,7 @@ class ShowcaseCard extends Component {
               <div className="sub-text">{this.props.aboutProject.text}</div>
             </div>
           </div>
-          <img className="width-100 showcase-margin-top-l showcase-margin-bot-l" src={require("../../assets/images/" + this.props.aboutProject.image)} />
+          <img className="width-100 showcase-margin-top showcase-margin-bot" src={require("../../assets/images/" + this.props.aboutProject.image)} />
         </div>
       </div>
     )

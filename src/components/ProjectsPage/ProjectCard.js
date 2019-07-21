@@ -10,7 +10,7 @@ class ProjectCard extends Component {
 
   render () {
     return(
-      <div className="project-card project-open" onClick={this.enterProject}>
+      <div className="project-card" onClick={this.enterProject}>
         <div className="project-card-wrapper pin-center">
           <div className="project-card-img">
             <h2 className="project-card-tag">{this.props.project.tag}</h2>

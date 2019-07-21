@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    //this.setState({ homeIntroAnimationMain: true });
+    this.setState({ homeIntroAnimationMain: true });
   }
   homeIntroAnimationMainOut = () => {
     this.setState({ homeIntroAnimationMain: false });

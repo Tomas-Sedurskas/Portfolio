@@ -490,9 +490,11 @@ p{
   width: 100%;
   position: relative;
   transition: transform 100ms ease-out;
+  border-radius: 3px;
 }
 .project-card-mobile img{
   width: 100%;
+  border-radius: 3px;
   -webkit-mask-image: -webkit-gradient(linear,  right bottom , left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
 }
 .project-card-mobile:active{
@@ -552,6 +554,7 @@ p{
   transform: translate(-50%,-50%);
   cursor: pointer;
   transition: transform 100ms ease-out;
+  border-radius: 4px;
 }
 .project-card-img:active{
   transform: translate(-50%,-50%) scale(0.975);
@@ -559,9 +562,11 @@ p{
 .project-card-img img{
   transition: width 300ms ease-out;
   width: 650px;
+  border-radius: 4px;
   -webkit-mask-image: -webkit-gradient(linear,  right bottom , left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
 }
 .project-card-img:hover img{
+  border-radius: 4px;
   width: 675px;
 }
 .project-card-tag{

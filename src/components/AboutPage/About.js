@@ -52,7 +52,7 @@ class About extends Component {
               </svg>
               <div className="about-fix-mobile sub-text">
                 <div className="about-title about-title-mobile">Hi, I'm Tom.</div>
-                <div className="about-text">I recent graduate of Multimedia Design from UCN and I'm continueing my studies for Web Development at UCN. Throughout the studies I expect to improve and expand upon my current skillset. I am striving to become a Front-end React developer, but I always have great interest in trying and learning new technologies and I would love to broaden my understanding of the Web Devlopment industry.</div>
+                <div className="about-text">I am a recent graduate of Multimedia Design from UCN and I am continueing my studies for Web Development at UCN. Throughout the studies I expect to improve and expand upon my current skillset. I am striving to become a Front-end React developer, but I always have great interest in trying and learning new technologies and I would love to broaden my understanding of the Web Devlopment industry.</div>
                 <div onClick={this.closeAbout} className="about-button remove-link">View Projects</div>
               </div>
             </div>

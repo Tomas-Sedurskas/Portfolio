@@ -971,6 +971,7 @@ p{
   padding: 12px;
   max-width: 320px;
   transition: transform 100ms ease-out;
+  cursor: pointer;
 }
 .about-button:active{
   transform: scale(0.97);

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.50b8e7b4.chunk.css",
+    "main.js": "/Portfolio/static/js/main.5df8c955.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5df8c955.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
+    "static/js/2.001acf8d.chunk.js": "/Portfolio/static/js/2.001acf8d.chunk.js",
+    "static/js/2.001acf8d.chunk.js.map": "/Portfolio/static/js/2.001acf8d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.70333d53264b9fe020fe8229a9c7b069.js": "/Portfolio/precache-manifest.70333d53264b9fe020fe8229a9c7b069.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.50b8e7b4.chunk.css.map": "/Portfolio/static/css/main.50b8e7b4.chunk.css.map",
+    "static/media/Apel-Desktop.jpg": "/Portfolio/static/media/Apel-Desktop.09e4ae88.jpg",
+    "static/media/Apel-Mobile.jpg": "/Portfolio/static/media/Apel-Mobile.bb891939.jpg",
+    "static/media/Autolite-Desktop.jpg": "/Portfolio/static/media/Autolite-Desktop.bc2c4519.jpg",
+    "static/media/Autolite-Logo.jpg": "/Portfolio/static/media/Autolite-Logo.61c2447f.jpg",
+    "static/media/Autolite-Mobile.jpg": "/Portfolio/static/media/Autolite-Mobile.9d289706.jpg",
+    "static/media/Dashy-Logo.jpg": "/Portfolio/static/media/Dashy-Logo.e8323b82.jpg",
+    "static/media/Dashy-Main.jpg": "/Portfolio/static/media/Dashy-Main.f7404528.jpg",
+    "static/media/Travel-Intro.jpg": "/Portfolio/static/media/Travel-Intro.b9e7b445.jpg",
+    "static/media/Travel-Logo.jpg": "/Portfolio/static/media/Travel-Logo.7708d7f0.jpg",
+    "static/media/Travel-Main.jpg": "/Portfolio/static/media/Travel-Main.f3b109d1.jpg",
+    "static/media/Travel-Onboarding.jpg": "/Portfolio/static/media/Travel-Onboarding.0de09b66.jpg",
+    "static/media/X.svg": "/Portfolio/static/media/X.f039cfac.svg"
+  }
+}
